@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net472</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>VoyIdentityAssemblyCert.snk</AssemblyOriginatorKeyFile>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+    <RepositoryUrl>https://github.com/Voyager-Poland/Voyager.DataContainer.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Voyager-Poland/Voyager.DataContainer</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <OutputType>Library</OutputType>
+    <RepositoryType>git</RepositoryType>
+    <Company>Voyager.com sp. z o.o.</Company>
+    <Title>Voyager.DataContainer</Title>
+    <Authors>Andrzej Świstowski</Authors>
+    <Description>Data encapsulation for API purposes</Description>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>API,Encapsulation</PackageTags>
+    <PackageIcon>voyager-nugets-ikona-128x128.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\img\voyager-nugets-ikona-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
