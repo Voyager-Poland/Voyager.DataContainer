@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net472</TargetFrameworks>
+    <TargetFrameworks>net6.0;net472;net8.0</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -27,6 +27,7 @@
     <PackageTags>API,Encapsulation</PackageTags>
     <PackageIcon>voyager-nugets-ikona-128x128.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
